@@ -26,7 +26,7 @@ const About = () => {
             Podii Consultants, building web solutions.
           </p>
           <p className="py-2 text-gray-600">
-            I’ve also won 12 hackathons and startup competitions in{" "}
+            I’ve also won 12 hackathons and  pitched startups in in{" "}
             <span className=" text-[#5651e5]">
               {" "}
               Kenya , Morocco , France , Belgium and Nigeria.{" "}
