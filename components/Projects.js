@@ -25,7 +25,6 @@ import sema from "../public/assets/projects/sema.png";
 import qliq from "../public/assets/projects/qliq.png";
 import thrills from "../public/assets/projects/thrills.png";
 import kerry from "../public/assets/projects/kerry.png";
-import raila from "../public/assets/projects/raila.png";
 import tenx from "../public/assets/projects/tenx.png";
 
 import purefruit from "../public/assets/projects/purefruit.png";
@@ -34,12 +33,7 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
   const [projectstoshow, setProjectsToShow] = useState("all");
   const projects = [
-    {
-      title: "Raila For AUC Official Website",
-      image: raila,
-      projectUrl: "/raila",
-      languages: "React JS , Tailwind CSS",
-    },
+    
     {
       title: "NexuscaleAI",
       image: tenx,
@@ -175,85 +169,10 @@ const Projects = () => {
       languages: "React JS, Tailwind CSS, Ruby on Rails",
     },
   ];
-  const elixir_projects = [
-    {
-      title: "NexuscaleAI",
-      image: tenx,
-      projectUrl: "/tenx",
-      languages: "Elixir , Phoenix LiveView , Python",
-    },
-    {
-      title: "Sema Web App",
-      image: sema,
-      projectUrl: "/sema",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-    {
-      title: "Mche",
-      image: mche,
-      projectUrl: "/mche",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-    {
-      title: "Lipia Ngoma",
-      image: lipiangoma,
-      projectUrl: "/lipiangoma",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-
-    {
-      title: "Headwear Solutions Ecommerce System",
-      image: headwearsolutions,
-      projectUrl: "/headwearsolutions",
-      languages: "Elixir , Phoenix LiveView",
-    },
-    {
-      title: "Mwamba RFC",
-      image: mwamba,
-      projectUrl: "/mwamba",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-    {
-      title: "TheKultureKe Ticketing System",
-      image: thekultureke,
-      projectUrl: "/thekultureke",
-      languages: "Elixir , Phoenix LiveView",
-    },
-    {
-      title: "Pataride",
-      image: pataride,
-      projectUrl: "/pataride",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-    {
-      title: "Custom Valetine's Day Website",
-      image: bemyvalentine,
-      projectUrl: "/bemyvalentine",
-      languages: "Elixir , Phoenix LiveView",
-    },
-
-    {
-      title: "Influencer Management System",
-      image: allthingsocial,
-      projectUrl: "/allthingsocial",
-      languages: "ELixir , Phoenix , Tailwind CSS",
-    },
-
-    {
-      title: "EngagePro Employee Management System",
-      image: engagepro,
-      projectUrl: "/engagepro",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-  ];
+ 
 
   const react_projects = [
-    {
-      title: "Raila For AUC Official Website",
-      image: mche,
-      projectUrl: "/raila",
-      languages: "React JS , Tailwind CSS",
-    },
+   
     {
       title: "Summertides",
       image: summertides,
@@ -361,7 +280,7 @@ const Projects = () => {
         <h2 className="py-2">Some of my recent projects</h2>
         <p className="  text-sm text-gray-500 mb-4">
           These are some of my best projects , here I used React JS for my
-          frontend , Elixir and Phoenix Live View for my backend and Tailwind
+          frontend , MongoDB and NextJS for my backend and Tailwind
           CSS for Styling .
         </p>
         <div class="flex gap-4 md:flex-row flex-col items-center">
@@ -383,7 +302,6 @@ const Projects = () => {
             }`}
             onClick={() => setProjectsToShow("elixir")}
           >
-            <IoMdStar /> Phoenix / Elixir Projects <IoMdStar />
           </div>
           <div
             class={`bg-white p-2 shadow-black/50 cursor-pointer transition-all ease-in-out duration-500  flex gap-4 items-center shadow-sm rounded-3xl ${
@@ -407,15 +325,6 @@ const Projects = () => {
                 languages={project.languages}
               />
             ))}
-          {projectstoshow == "elixir" &&
-            elixir_projects.map((project, index) => (
-              <ProjectItem
-                title={project.title}
-                image={project.image}
-                projectUrl={project.projectUrl}
-                languages={project.languages}
-              />
-            ))}
           {projectstoshow == "react" &&
             react_projects.map((project, index) => (
               <ProjectItem
@@ -431,7 +340,7 @@ const Projects = () => {
       <div className="flex justify-center items-center">
         <a
           className="bg-[#5651e5] text-white px-8 py-4  cursor-pointer shadow-gray-200 shadow-2xl hover:scale-105 transition-all duration-500 rounded-md text-sm font-semibold"
-          href="https://github.com/MICHAELMUNAVU83"
+          href="https://github.com/35Luise"
           target="_blank"
           rel="noreferrer"
         >

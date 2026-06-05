@@ -1,0 +1,20 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v20.20.2
+3 silly config load:file:C:\Users\user\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\user\Desktop\luiseogara\.npmrc
+5 silly config load:file:C:\Users\user\.npmrc
+6 silly config load:file:C:\Users\user\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view @next/font@latest description homepage version time
+8 verbose argv "view" "--json" "--" "@next/font@latest" "description" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:C:\Users\user\Desktop\luiseogara\UsersuserAppDataLocalnpm-cache\_logs\2026-06-05T13_43_06_138Z-
+10 verbose logfile C:\Users\user\Desktop\luiseogara\UsersuserAppDataLocalnpm-cache\_logs\2026-06-05T13_43_06_138Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@next%2ffont 1776ms (cache revalidated)
+14 verbose cwd c:\Users\user\Desktop\luiseogara
+15 verbose os Windows_NT 10.0.19045
+16 verbose node v20.20.2
+17 verbose npm  v11.16.0
+18 verbose exit 0
+19 info ok

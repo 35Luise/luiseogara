@@ -22,22 +22,19 @@ const Main = () => {
         <div className="max-w-[1240px] mx-auto h-full flex p-2 justify-center items-center">
           <div>
             <p className=" uppercase text-sm tracking-widest text-gray-600 ">
-              LET'S BUILD SOMETHING BEAUTIFUL
+              <span className="text-[#4371ac]">CRAFTING WEBSITES WITH PRECISION AND PASSION</span>
             </p>
             <h1 className="py-3 text-gray-700">
-              Hi , I am <span className="text-[#5651e5]">Michael Munavu</span>
+              Hi , I am <span className="text-[#295287]">Luise Ogara</span>
             </h1>
             <h2 className=" text-gray-700 text-center">I am a</h2>
 
-            <h1 className="py-3 fjalla-one md:text-3xl text-md text-[#5651e5]">
+            <h1 className="py-3 fjalla-one md:text-3xl text-md text-[#295287]">
               <Typewriter
                 options={{
                   strings: [
                     "Full Stack Developer",
                     "React Js Developer",
-                    "Phoenix Developer",
-                    "Elixir Developer",
-                    "Technical Writer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -46,16 +43,12 @@ const Main = () => {
               />
             </h1>
             <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
-              I'm a full-stack developer with 4 years of experience . I
-              specialize in scalable web apps using Elixir, Phoenix, Ash and
-              React JS. I’ve delivered projects focusing on user experience and
-              performance, and I create tech content to help developers grow.
-              Let’s build something impactful!
+              I engineer high-performance web applications that don't just look good—they solve real business problems. With expertise in the MERN ecosystem (MongoDB, Express.js, React.js, and Next.js), I build scalable, responsive, and user-focused digital experiences designed for growth, performance, and long-term success. Every project is crafted with clean architecture, modern development practices, and a relentless focus on delivering measurable value.
             </p>
             <div className="flex items-center flex-wrap  justify-center md:w-[100%]  gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
                 <a
-                  href="https://www.linkedin.com/in/michael-munavu/"
+                  href="https://www.linkedin.com/in/luise-ogara-38a9a123b/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -64,7 +57,7 @@ const Main = () => {
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
-                  href="https://github.com/MICHAELMUNAVU83"
+                  href="https://github.com/35Luise"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -73,7 +66,7 @@ const Main = () => {
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
-                  href="https://twitter.com/MichaelTrance1"
+                  href="https://x.com/LuiseOgara?t=BrN1s4-ytsgGtrxWKMV-KA&s=09"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -81,13 +74,13 @@ const Main = () => {
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
-                <a rel="noopener noreferrer" href="tel:0740769596">
+                <a rel="noopener noreferrer" href="tel:0114697174">
                   <FiPhoneCall className="md:text-2xl text-md " />
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
-                  href="https://wa.me/254740769596"
+                  href="https://wa.me/254114697174"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -95,15 +88,7 @@ const Main = () => {
                 </a>
               </div>
 
-              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
-                <a
-                  href="https://www.tiktok.com/@michaelmunavu"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaTiktok className="md:text-2xl text-md " />
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>

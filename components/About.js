@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profile from "../public/profile123.png";
+import profile from "../public/profile.jpeg";
 import Link from "next/link";
 
 const About = () => {
@@ -11,52 +11,27 @@ const About = () => {
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 p-2">
-          <p className="uppercase text-xltracking-widest text-[#5651e5] ">
+          <p className="uppercase text-xltracking-widest text-[#295287] ">
             About
           </p>
           <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            I’m a software engineer and full-stack developer with experience in{" "}
-            <span className=" text-[#5651e5]">Elixir, </span>{" "}
-            <span className=" text-[#5651e5]">Phoenix LiveView,</span> and{" "}
-            <span className=" text-[#5651e5]"> React JS. </span>
+            I’m a full-stack web developer with experience in{" "}
+            <span className=" text-[#295287]"> MongoDB, </span>{" "}
+            <span className=" text-[#295287]">Express JS, </span>
+            <span className=" text-[#295287]"> React JS </span> and{" "}
+            <span className=" text-[#295287]"> Next JS. </span>
           </p>
           <p className="py-2 text-gray-600">
-            I’ve worked at Uamuzi, Amaris Digital Solutions, GS1 Kenya, and
-            Podii Consultants, building web solutions.
+            I’ve worked at the Ministry of Information, Communication and the Digital Economy(MIC-DE), Kenya Forestry Research Institute(KEFRI), Coder Bounty and
+            Podii Consultants, building and maintaining web solutions.
           </p>
           <p className="py-2 text-gray-600">
-            I’ve also won 12 hackathons and  pitched startups in in{" "}
-            <span className=" text-[#5651e5]">
-              {" "}
-              Kenya , Morocco , France , Belgium and Nigeria.{" "}
-            </span>
+            I’ve actively participated in several hackathons across Kenya, collaborating with diverse teams to design, develop, and deliver technology solutions under tight deadlines. Through these events, i have contributed to multiple projects, strengthening my skills in software development, teamwork, problem solving and project execution.
           </p>
+          
           <p className="py-2 text-gray-600">
-            Currently, I’m at{" "}
-            <a
-              className=" text-[#5651e5] underline"
-              href="https://africanmanagers.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              AMI
-            </a>{" "}
-            and run my own tech consultancy,{" "}
-            <a
-              className=" text-[#5651e5] underline"
-              href="https://www.virgil.afrca/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Virgil Africa .
-            </a>
-          </p>
-          <p>
-            I enjoy teaching and write technical articles on Medium and creating
-            tech content.
+            I am currently a freelance web developer who constantly enjoys exploring new tools, frameworks, and technologies to improve my craft. Beyond coding, i participate in hackathons, collaborating with other innovators and learning about entrepreneurship, business, and emerging trends in technology.
           </p>
 
           <p className="py-2 text-gray-600 underline cursor-pointer">
@@ -65,7 +40,7 @@ const About = () => {
             </Link>
           </p>
         </div>
-        <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full md:w-96 md:h-96 w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-[#5651e5] cursor-pointer">
+        <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full md:w-96 md:h-96 w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-[#295287] cursor-pointer">
           <Image
             src={profile}
             alt="avatar"

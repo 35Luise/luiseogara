@@ -1,0 +1,28 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v20.20.2
+3 silly config load:file:C:\Users\user\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\user\Desktop\luiseogara\.npmrc
+5 silly config load:file:C:\Users\user\.npmrc
+6 silly config load:file:C:\Users\user\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ls framer-motion
+8 verbose argv "ls" "--json" "--depth" "0" "--" "framer-motion"
+9 verbose logfile logs-max:10 dir:C:\Users\user\Desktop\luiseogara\UsersuserAppDataLocalnpm-cache\_logs\2026-06-05T13_43_08_278Z-
+10 verbose logfile C:\Users\user\Desktop\luiseogara\UsersuserAppDataLocalnpm-cache\_logs\2026-06-05T13_43_08_278Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2143813632 maxSize:535953408 maxEntrySize:267976704
+13 silly logfile done cleaning log files
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules/framer-motion
+15 verbose stack Error: invalid: framer-motion@ c:\Users\user\Desktop\luiseogara\node_modules\framer-motion
+15 verbose stack     at LS.exec (C:\Users\user\AppData\Roaming\npm\node_modules\npm\lib\commands\ls.js:204:9)
+15 verbose stack     at async Npm.exec (C:\Users\user\AppData\Roaming\npm\node_modules\npm\lib\npm.js:193:9)
+15 verbose stack     at async module.exports (C:\Users\user\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+16 error code ELSPROBLEMS
+17 error invalid: framer-motion@ c:\Users\user\Desktop\luiseogara\node_modules\framer-motion
+18 verbose cwd c:\Users\user\Desktop\luiseogara
+19 verbose os Windows_NT 10.0.19045
+20 verbose node v20.20.2
+21 verbose npm  v11.16.0
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: C:\Users\user\Desktop\luiseogara\UsersuserAppDataLocalnpm-cache\_logs\2026-06-05T13_43_08_278Z-debug-0.log

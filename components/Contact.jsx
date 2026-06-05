@@ -14,14 +14,13 @@ const Contact = () => {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
+  const [title, setTitle] = useState("");
   const [message, setMessage] = useState("");
-  const [phone, setPhone] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if (!name || !email || !subject || !message || !phone) {
+    if (!name || !email || !title || !message) {
       toast.error("Please fill in all fields", {
         position: "top-center",
         autoClose: 5000,
@@ -35,18 +34,17 @@ const Contact = () => {
     } else {
       emailjs
         .sendForm(
-          "service_obtaxtx",
-          "template_6ec2bfx",
+          "service_c5zeaxo",
+          "template_x00dn4s",
           form.current,
-          "6M-rV1iiaVqa5DANh"
+          "68oFe01h-eUBkw-pF"
         )
         .then(
           (result) => {
             setName("");
             setEmail("");
-            setSubject("");
+            setTitle("");
             setMessage("");
-            setPhone("");
             setTimeout(() => {
               toast.success("Email Sent , I will get back to you soon", {
                 position: "top-center",
@@ -61,7 +59,8 @@ const Contact = () => {
             }, 1000);
           },
           (error) => {
-            console.log(error.text);
+            console.log(error);
+            toast.error("Failed to send email. Check EmailJS Config.")
           }
         );
     }
@@ -76,7 +75,7 @@ const Contact = () => {
         <h2 className="py-2">Get in Touch</h2>
         <p className="  text-sm text-gray-500 mb-4    font-semibold">
           Reach out to me for any freelancing opportunities , contract work or
-          just to say hi ! , I also offer mentorship to aspiring developers .
+          just to say hi !
         </p>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* { left} */}
@@ -92,13 +91,12 @@ const Contact = () => {
                 />
               </div>
               <div className="py-2">
-                <h2 className="text-xl font-semibold">Michael Munavu</h2>
+                <h2 className="text-xl font-semibold">Luise Ogara</h2>
                 <p>Full Stack Web Developer</p>
                 <p className="text-gray-600 py-4">
                   {" "}
                   Do you have any ideas you would love to bring to life ,
-                  whether it is a landing page to drive more sales or a mega
-                  system that will make you the next Steve Jobs or Elon Musk ,
+                  whether it is a landing page designed to drive more sales, a business website that strengthens your online presence , or a large-scale system that streamlines operations and supports growth, I'm here to help turn your vision into reality.
                   Reach out , I would love to walk this journey with you{" "}
                 </p>
               </div>
@@ -107,7 +105,7 @@ const Contact = () => {
                 <div className="flex items-center justify-between  m-auto py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://www.linkedin.com/in/michael-munavu/"
+                      href="https://www.linkedin.com/in/luise-ogara-38a9a123b/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -116,7 +114,7 @@ const Contact = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://github.com/MICHAELMUNAVU83"
+                      href="https://github.com/35Luise"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -125,7 +123,7 @@ const Contact = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://twitter.com/MichaelTrance1"
+                      href="https://x.com/LuiseOgara?t=BrN1s4-ytsgGtrxWKMV-KA&s=09"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -133,13 +131,13 @@ const Contact = () => {
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
-                    <a rel="noopener noreferrer" href="tel:0740769596">
+                    <a rel="noopener noreferrer" href="tel:0114697174">
                       <FiPhoneCall />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://wa.me/254740769596"
+                      href="https://wa.me/254114697174"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -166,18 +164,7 @@ const Contact = () => {
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
-                      Phone Number
-                    </label>
-                    <input
-                      type="text"
-                      className="border-2  rounded-lg p-3"
-                      name="phone_number"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                    />
-                  </div>
+                  
                 </div>
 
                 <div className="flex flex-col py-2">
@@ -195,9 +182,9 @@ const Contact = () => {
                   <input
                     type="text"
                     className="border-2  rounded-lg p-3 w-full"
-                    name="subject"
-                    value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
+                    name="title"
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
                   />
                 </div>
                 <div className="flex flex-col py-2">

@@ -6,13 +6,13 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
-import logo from "../public/assets/navLogo.png";
+import logo from "../public/assets/weblogo2.png";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState("#ffffff");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
@@ -31,10 +31,10 @@ const NavBar = () => {
       router.asPath === "/store" ||
       router.asPath === "/reactrecipe"
     ) {
-      setNavBg("transparent");
+      setNavBg("#ffffff");
       setLinkColor("#ecf0f3");
     } else {
-      setNavBg("#ecf0f3");
+      setNavBg("#ffffff");
       setLinkColor("#1f2937");
     }
   }, [router]);
@@ -66,7 +66,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full h-full md:px-4 py-4 px-2 2xl:px-16">
         <motion.div animate={{ rotate: 360 }} transition={{ duration: 2 }}>
           <Link href="/">
-            <Image src={logo} width={85} height={50} />
+            <Image src={logo} width={50} height={25} />
           </Link>
         </motion.div>
         <div>
@@ -86,26 +86,23 @@ const NavBar = () => {
                 Skills
               </li>
             </Link>
+            <Link href="/#services">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
+                Services
+              </li>
+            </Link>
             <Link href="/#projects">
               <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Projects
               </li>
             </Link>
-            <Link href="/#blogs">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
-                Blogs
-              </li>
-            </Link>
+            
             <Link href="/#contact">
               <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Contact
               </li>
             </Link>
-            <Link href="/webinar">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
-                Webinar Talk
-              </li>
-            </Link>
+            
           </ul>
           <div
             className="md:hidden"
@@ -125,7 +122,7 @@ const NavBar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%]  h-screen bg-[#ecf0f3] p-2 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%]  h-screen bg-[#ffffff] p-2 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
@@ -163,15 +160,11 @@ const NavBar = () => {
                 <Link href="/#projects">
                   <li className="py-4 text-sm">Projects</li>
                 </Link>
-                <Link href="/#blogs">
-                  <li className="py-4 text-sm">Blogs</li>
-                </Link>
+               
                 <Link href="/#contact">
                   <li className="py-4 text-sm">Contact</li>
                 </Link>
-                <Link href="/webinar">
-                  <li className="py-4 text-sm">Webinar Talk</li>
-                </Link>
+               
               </ul>
               <div className="pt-10">
                 <p className="uppercase tracking-widest text-[#5651e5]">
@@ -180,7 +173,7 @@ const NavBar = () => {
                 <div className="flex items-center justify-between w-full  my-4 sm:w-[80%] w-100">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer  hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://www.linkedin.com/in/michael-munavu/"
+                      href="https://www.linkedin.com/in/luise-ogara-38a9a123b/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -189,7 +182,7 @@ const NavBar = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://github.com/MICHAELMUNAVU83"
+                      href="https://github.com/35Luise"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -198,7 +191,7 @@ const NavBar = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://twitter.com/MichaelTrance1"
+                      href="https://x.com/LuiseOgara?t=BrN1s4-ytsgGtrxWKMV-KA&s=09"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -206,13 +199,13 @@ const NavBar = () => {
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
-                    <a rel="noopener noreferrer" href="tel:0740769596">
+                    <a rel="noopener noreferrer" href="tel:0114697174">
                       <FiPhoneCall />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://wa.me/254740769596"
+                      href="https://wa.me/254114697174"
                       target="_blank"
                       rel="noreferrer"
                     >
