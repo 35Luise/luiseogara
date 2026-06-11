@@ -27,11 +27,11 @@ const About = () => {
             Podii Consultants, building and maintaining web solutions.
           </p>
           <p className="py-2 text-gray-600">
-            I’ve actively participated in several hackathons across Kenya, collaborating with diverse teams to design, develop, and deliver technology solutions under tight deadlines. Through these events, i have contributed to multiple projects, strengthening my skills in software development, teamwork, problem solving and project execution.
+            I’ve actively participated in several hackathons across Kenya, collaborating with diverse teams to design, develop, and deliver technology solutions under tight deadlines. Through these events, I have contributed to multiple projects, strengthening my skills in software development, teamwork, problem solving and project execution.
           </p>
           
           <p className="py-2 text-gray-600">
-            I am currently a freelance web developer who constantly enjoys exploring new tools, frameworks, and technologies to improve my craft. Beyond coding, i participate in hackathons, collaborating with other innovators and learning about entrepreneurship, business, and emerging trends in technology.
+            I am currently a freelance web developer who constantly enjoys exploring new tools, frameworks, and technologies to improve my craft. Beyond coding, I participate in hackathons, collaborating with other innovators and learning about entrepreneurship, business, and emerging trends in technology.
           </p>
 
           <p className="py-2 text-gray-600 underline cursor-pointer">
