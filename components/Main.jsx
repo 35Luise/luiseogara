@@ -55,15 +55,7 @@ const Main = () => {
                   <FaLinkedin className="md:text-2xl text-md " />
                 </a>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
-                <a
-                  href="https://github.com/35Luise"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaGithub className="md:text-2xl text-md " />
-                </a>
-              </div>
+              
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://x.com/LuiseOgara?t=BrN1s4-ytsgGtrxWKMV-KA&s=09"
