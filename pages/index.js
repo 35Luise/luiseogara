@@ -43,7 +43,6 @@ export default function Home() {
       <Skills />
       <Services />
       <Projects />
-      <Achievments />
       <Testimonials />
       <Contact />
     </>
