@@ -339,7 +339,7 @@ const Projects = () => {
 
       <div className="flex justify-center items-center">
         <a
-          className="bg-[#5651e5] text-white px-8 py-4  cursor-pointer shadow-gray-200 shadow-2xl hover:scale-105 transition-all duration-500 rounded-md text-sm font-semibold"
+          className="bg-[#295287] text-white px-8 py-4  cursor-pointer shadow-gray-200 shadow-2xl hover:scale-105 transition-all duration-500 rounded-md text-sm font-semibold"
           href="https://github.com/35Luise"
           target="_blank"
           rel="noreferrer"
