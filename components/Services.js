@@ -8,11 +8,6 @@ const Services = () => {
           <p className="text-xl tracking-widest uppercase text-[#295287] ">Services
           </p>
           <h2 className="py-2">What I can offer</h2>
-          <p className="  text-sm text-gray-500 mb-4">
-          These are some of my best projects , here I used React JS for my
-          frontend , MongoDB and NextJS for my backend and Tailwind
-          CSS for Styling .
-        </p>
             <div class="flex gap-4 md:flex-row flex-col items-center"> 
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">BASIC PACKAGE</h3>
