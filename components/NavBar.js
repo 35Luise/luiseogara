@@ -85,11 +85,7 @@ const NavBar = ({ setShowAbout }) => {
 >
   About
 </li>
-            <Link href="/#skills">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
-                Skills
-              </li>
-            </Link>
+            
             <Link href="/#services">
               <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Services
@@ -172,9 +168,7 @@ const NavBar = ({ setShowAbout }) => {
 >
   About
 </li>
-                <Link href="/#skills">
-                  <li className="py-4 text-sm">Skills</li>
-                </Link>
+                
                 <Link href="/#projects">
                   <li className="py-4 text-sm">Projects</li>
                 </Link>
