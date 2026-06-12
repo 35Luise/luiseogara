@@ -9,7 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import logo from "../public/assets/weblogo2.png";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
-const NavBar = () => {
+const NavBar = ({ setShowAbout }) => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ffffff");
@@ -76,11 +76,12 @@ const NavBar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
-                About
-              </li>
-            </Link>
+            <li
+  onClick={() => setShowAbout(true)}
+  className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black cursor-pointer"
+>
+  About
+</li>
             <Link href="/#skills">
               <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Skills
