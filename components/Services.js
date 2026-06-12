@@ -32,7 +32,7 @@ Custom Responsive Design.</li>
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">STANDARD PACKAGE</h3>
                   <p>A standard package typically has 5-8 pages and is best for small businesses, startups and personal brands.<br /> <span className="text-[#295287]">Key Features:</span></p>
-                  <ul>
+                  <ul className="list-disc ml-5 space-y-1">
                     <li>Inclusive of all the features of a basic package.</li>
                     <li>Contact form Intergration with email notifications and spam protection.</li>
                     <li>Three months free support after delivery.</li>
@@ -44,7 +44,7 @@ Custom Responsive Design.</li>
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">PREMIUM PACKAGE</h3>
                   <p>A premium package might be a professional or an e-commerce website with pages ranging from 8 to 15. The package is best for companies, online shops, and established brands.<br /><span className="text-[#295287]">Key Features:</span></p>
-                  <ul>
+                  <ul className="list-disc ml-5 space-y-1">
                     <li>Fully custom design with advanced UI/UX.</li>
                     <li>E-commerce functionality(store, payment gateway, inventory setup).</li>
                     <li>Blog + CMS Integration.</li>
@@ -60,7 +60,7 @@ Custom Responsive Design.</li>
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">MAINTENANCE PACKAGE</h3>
                   <p>This package helps to keep your website secure, up-to-date and performing at it's best. It can go hand in hand with one of the packages that have been described or a solo package for a website already in place.<br /><span className="text-[#295287]">Key Features:</span></p>
-                  <ul>
+                  <ul className="list-disc ml-5 space-y-1">
                     <li>Regular updates.</li>
                     <li>Bug fixes.</li>
                     <li>Performance Optimization.</li>
@@ -73,7 +73,7 @@ Custom Responsive Design.</li>
 
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">THIRD PARTY INTEGRATIONS</h3>
-                    <ul>
+                    <ul className="list-disc ml-5 space-y-1">
                         <li>Email Integration(Gmail, Outlook, Zoho Mail, Yahoo Mail).</li>
                         <li>Payment Gateway Intergration(Mpesa, Paypal, Stripe, Flutterwave, Paystack).</li>
                         <li>Authentication and User Accounts(Google, Facebook, Apple sign in).</li>
