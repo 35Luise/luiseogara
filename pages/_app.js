@@ -1,12 +1,18 @@
 import "@/styles/globals.css";
 import NavBar from "@/components/NavBar";
+import { useState } from "react";
 
 export default function App({ Component, pageProps }) {
+  const [showAbout, setShowAbout] = useState(false);
+
   return (
     <>
-      <NavBar />
+      <NavBar setShowAbout={setShowAbout} />
 
-      <Component {...pageProps} />
+      <Component
+        {...pageProps}
+        showAbout={showAbout}
+      />
     </>
   );
 }
