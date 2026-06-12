@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import Head from "next/head";
 import Main from "@/components/Main";
 import About from "@/components/About";
@@ -8,8 +8,8 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Achievments from "@/components/Achievments";
 import Testimonials from "@/components/Testimonials.";
-export default function Home() {
-  const [showAbout, setShowAbout] = useState(false);
+export default function Home( { showAbout } ) {
+ 
   return (
     <>
       <Head>
