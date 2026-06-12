@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -179,7 +179,7 @@ const NavBar = ({ setShowAbout }) => {
                
               </ul>
               <div className="pt-10">
-                <p className="uppercase tracking-widest text-[#5651e5]">
+                <p className="uppercase tracking-widest text-[#295287]">
                   Let's Connect{" "}
                 </p>
                 <div className="flex items-center justify-between w-full  my-4 sm:w-[80%] w-100">
@@ -192,22 +192,14 @@ const NavBar = ({ setShowAbout }) => {
                       <FaLinkedin />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
-                    <a
-                      href="https://github.com/35Luise"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
+                  
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
                       href="https://x.com/LuiseOgara?t=BrN1s4-ytsgGtrxWKMV-KA&s=09"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FaTwitter />
+                      <FaXTwitter />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
