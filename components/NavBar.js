@@ -152,9 +152,15 @@ const NavBar = ({ setShowAbout }) => {
                 <Link href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
-                <Link href="/#about">
-                  <li className="py-4 text-sm">About</li>
-                </Link>
+                <li
+  onClick={() => {
+    setShowAbout(true);
+    handleNav();
+  }}
+  className="py-4 text-sm cursor-pointer"
+>
+  About
+</li>
                 <Link href="/#skills">
                   <li className="py-4 text-sm">Skills</li>
                 </Link>
