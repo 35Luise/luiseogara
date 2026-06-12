@@ -191,7 +191,7 @@ const Contact = () => {
                 </div>
                 <button
                   type="submit"
-                  className="w-full p-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white"
+                  className="w-full p-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#295287] to-[#709dff] text-white"
                 >
                   Send Message
                 </button>
