@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import comp from "../public/computer.jpg";
 import Image from "next/image";
 import { FiPhoneCall } from "react-icons/fi";
-import { FaLinkedin, FaGithub, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
@@ -112,22 +112,14 @@ const Contact = () => {
                       <FaLinkedin />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
-                    <a
-                      href="https://github.com/35Luise"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
+                 
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
                       href="https://x.com/LuiseOgara?t=BrN1s4-ytsgGtrxWKMV-KA&s=09"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FaTwitter />
+                      <FaXTwitter />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
