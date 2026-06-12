@@ -153,8 +153,16 @@ const NavBar = ({ setShowAbout }) => {
             <div className="flex flex-col  py-4">
               <ul onClick={handleNav}>
                 <Link href="/">
-                  <li className="py-4 text-sm">Home</li>
-                </Link>
+  <li
+    onClick={() => {
+      setShowAbout(false);
+      handleNav();
+    }}
+    className="py-4 text-sm"
+  >
+    Home
+  </li>
+</Link>
                 <li
   onClick={() => {
     setShowAbout(true);
