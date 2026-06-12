@@ -4,7 +4,7 @@ const Services = () => {
   return (
     
       <div id="services" className="w-full">
-        <div className="max-w-[1240px] m-auto flex mx-auto  flex-col justify-center h-full">
+        <div className="max-w-[1240px] mx-auto flex px-2 py-16">
           <p className="text-xl tracking-widest uppercase text-[#295287] ">Services
           </p>
           <h2 className="py-2">What I can offer</h2>
