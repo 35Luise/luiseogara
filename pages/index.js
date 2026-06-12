@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import Achievments from "@/components/Achievments";
 import Testimonials from "@/components/Testimonials.";
 export default function Home() {
+  const [showAbout, setShowAbout] = useState(false);
   return (
     <>
       <Head>
@@ -40,7 +41,7 @@ export default function Home() {
       </Head>
 
       <Main />
-      <About />
+      {showAbout && <About />}
       <Skills />
       <Services />
       <Projects />
