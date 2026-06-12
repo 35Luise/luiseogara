@@ -8,7 +8,7 @@ const Services = () => {
           <p className="text-xl tracking-widest uppercase text-[#295287] ">Services
           </p>
           <h2 className="py-2">What I can offer</h2>
-            <div className="grid md:grid-cols-2 mt-16 gap-10"> 
+            <div class="flex gap-4 md:flex-row flex-col items-center"> 
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">BASIC PACKAGE</h3>
                     <p>A basic package generally has 1-4 pages and best for landing pages, small portfolios and freelancers starting out with some of it's key features listed below:</p>
