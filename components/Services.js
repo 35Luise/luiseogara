@@ -11,7 +11,7 @@ const Services = () => {
           </p>
           <h2 className="py-4">What I can offer</h2>
             <div className="grid md:grid-cols-2 mt-16 gap-10"> 
-                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">BASIC PACKAGE</h3>
                     <p>A basic package generally has 1-4 pages and best for landing pages, small portfolios and freelancers starting out with some of it's key features listed below:</p>
                     <ul className="list-disc ml-5 space-y-1">
@@ -19,7 +19,7 @@ const Services = () => {
                         <li>Simple navigation menu.</li>
                         <li>Contact form integration(with email notifications).</li>
                         <li>Social Media Links.</li>
-                        <li>Basic on-page SEO(Search Engine Optimazation).</li>
+                        <li>Basic on-page SEO(Search Engine Optimization).</li>
                         <li>Speed Optimization.</li>
                         <li>Google Maps Integration.</li>
                         <li>Cross-browser compatibility.</li>
@@ -27,7 +27,7 @@ const Services = () => {
                     <p><span className="text-[#295287]">Delivery: </span>7-14 days</p>
                 </div>
 
-                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">STANDARD PACKAGE</h3>
                   <p>A standard package typically has 5-8 pages and is best for small businesses, startups and personal brands.<br /> <span className="text-[#295287]">Key Features:</span></p>
                   <ul>
@@ -39,7 +39,7 @@ const Services = () => {
                   <p><span className="text-[#295287]">Delivery: </span>10-21 days</p>
                 </div>
 
-                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">PREMIUM PACKAGE</h3>
                   <p>A premium package might be a professional or an e-commerce website with pages ranging from 8 to 15. The package is best for companies, online shops, and established brands.<br /><span className="text-[#295287]">Key Features:</span></p>
                   <ul>
@@ -55,7 +55,7 @@ const Services = () => {
                   <p><span className="text-[#295287]">Delivery: </span>6-12 weeks</p>
                 </div>
 
-                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">MAINTENANCE PACKAGE</h3>
                   <p>This package helps to keep your website secure, up-to-date and performing at it's best. It can go hand in hand with one of the packages that have been described or a solo package for a website already in place.<br /><span className="text-[#295287]">Key Features:</span></p>
                   <ul>
@@ -69,7 +69,7 @@ const Services = () => {
                   </ul>
                 </div>
 
-                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+                <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">THIRD PARTY INTEGRATIONS</h3>
                     <ul>
                         <li>Email Integration(Gmail, Outlook, Zoho Mail, Yahoo Mail).</li>
