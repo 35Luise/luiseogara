@@ -15,7 +15,7 @@ const Services = () => {
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">BASIC PACKAGE</h3>
                     <p>A basic package generally has 1-4 pages and best for landing pages, small portfolios and freelancers starting out with some of it's key features listed below:</p>
-                    <ul className="list-disc ml-5 space-y-1">
+                    <ul>
                         <li className="flex items-start gap-2">
   <FaCheck className="text-green-500 mt-1" />
 Custom Responsive Design.</li>
