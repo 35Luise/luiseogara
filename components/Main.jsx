@@ -34,7 +34,7 @@ const Main = () => {
                 options={{
                   strings: [
                     "Full Stack Developer",
-                    "React Js Developer",
+                    "Web Developer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -43,7 +43,7 @@ const Main = () => {
               />
             </h1>
             <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
-              I engineer high-performance web applications that don't just look good—they solve real business problems. With expertise in the MERN ecosystem (MongoDB, Express.js, React.js, and Next.js), I build scalable, responsive, and user-focused digital experiences designed for growth, performance, and long-term success. Every project is crafted with clean architecture, modern development practices, and a relentless focus on delivering measurable value.
+              I engineer high-performance web applications that don't just look good—they solve real business problems. I build scalable, responsive, and user-focused digital experiences designed for growth, performance, and long-term success. Every project is crafted with clean architecture, modern development practices, and a relentless focus on delivering measurable value.
             </p>
             <div className="flex items-center flex-wrap  justify-center md:w-[100%]  gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
