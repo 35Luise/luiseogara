@@ -10,7 +10,7 @@ const Services = () => {
         <div className="max-w-[1240px] m-auto flex mx-auto  flex-col justify-center h-full">
           <p className="text-xl tracking-widest uppercase text-[#295287] ">Services
           </p>
-          <h2 className="py-4">What I can offer</h2>
+          <h2 className="py-2">What I can offer</h2>
             <div className="grid md:grid-cols-2 mt-16 gap-10"> 
                 <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300">
                   <h3 className="text-[#295287]">BASIC PACKAGE</h3>
