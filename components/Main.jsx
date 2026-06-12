@@ -2,11 +2,11 @@ import React from "react";
 import {
   FaLinkedin,
   FaGithub,
-  FaTwitter,
+  FaXTwitter,
   FaWhatsapp,
   FaTiktok,
   FaInstagram,
-} from "react-icons/fa";
+} from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
@@ -62,7 +62,7 @@ const Main = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaTwitter className="md:text-2xl text-md " />
+                  <FaXTwitter className="md:text-2xl text-md " />
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
