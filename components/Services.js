@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 
 import { motion } from "framer-motion";
 
@@ -15,14 +16,30 @@ const Services = () => {
                   <h3 className="text-[#295287]">BASIC PACKAGE</h3>
                     <p>A basic package generally has 1-4 pages and best for landing pages, small portfolios and freelancers starting out with some of it's key features listed below:</p>
                     <ul className="list-disc ml-5 space-y-1">
-                        <li>Custom Responsive Design.</li>
-                        <li>Simple navigation menu.</li>
-                        <li>Contact form integration(with email notifications).</li>
-                        <li>Social Media Links.</li>
-                        <li>Basic on-page SEO(Search Engine Optimization).</li>
-                        <li>Speed Optimization.</li>
-                        <li>Google Maps Integration.</li>
-                        <li>Cross-browser compatibility.</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Custom Responsive Design.</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Simple navigation menu.</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Contact form integration(with email notifications).</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Social Media Links.</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Basic on-page SEO(Search Engine Optimization).</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Speed Optimization.</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Google Maps Integration.</li>
+                        <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Cross-browser compatibility.</li>
                     </ul>
                     <p><span className="text-[#295287]">Delivery: </span>7-14 days</p>
                 </div>
@@ -31,7 +48,9 @@ const Services = () => {
                   <h3 className="text-[#295287]">STANDARD PACKAGE</h3>
                   <p>A standard package typically has 5-8 pages and is best for small businesses, startups and personal brands.<br /> <span className="text-[#295287]">Key Features:</span></p>
                   <ul>
-                    <li>Inclusive of all the features of a basic package.</li>
+                    <li className="flex items-start gap-2">
+  <FaCheck className="text-green-500 mt-1" />
+Inclusive of all the features of a basic package.</li>
                     <li>Contact form Intergration with email notifications and spam protection.</li>
                     <li>Three months free support after delivery.</li>
                     <li>Blog Setup(with CMS if needed).</li>
