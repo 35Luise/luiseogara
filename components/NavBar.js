@@ -72,10 +72,13 @@ const NavBar = ({ setShowAbout }) => {
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black ">
-                Home
-              </li>
-            </Link>
+  <li
+    onClick={() => setShowAbout(false)}
+    className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black"
+  >
+    Home
+  </li>
+</Link>
             <li
   onClick={() => setShowAbout(true)}
   className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black cursor-pointer"
