@@ -1,11 +1,8 @@
 import React from "react";
 
-
-import { motion } from "framer-motion";
-
 const Services = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    
       <div id="services" className="w-full">
         <div className="max-w-[1240px] m-auto flex mx-auto  flex-col justify-center h-full">
           <p className="text-xl tracking-widest uppercase text-[#295287] ">Services
@@ -96,7 +93,6 @@ Custom Responsive Design.</li>
 
         </div>
       </div>
-    </motion.div>
   );
 };
 
