@@ -69,7 +69,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-10  w-full">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]  ">
+        <p className="text-xl tracking-widest uppercase text-[#295287]  ">
           Contact
         </p>
         <h2 className="py-2">Get in Touch</h2>
