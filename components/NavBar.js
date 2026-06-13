@@ -79,12 +79,14 @@ const NavBar = ({ setShowAbout }) => {
     Home
   </li>
 </Link>
+      <Link href="#about">
             <li
   onClick={() => setShowAbout(true)}
   className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black cursor-pointer"
 >
   About
 </li>
+    </Link>
             
             <Link href="/#services">
               <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
