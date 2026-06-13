@@ -165,6 +165,7 @@ const Contact = () => {
                     type="email"
                     className="border-2  rounded-lg p-3 w-full"
                     name="email"
+                    required 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
