@@ -279,9 +279,7 @@ const Projects = () => {
         </p>
         <h2 className="py-2">Some of my recent projects</h2>
         <p className="  text-sm text-gray-500 mb-4">
-          These are some of my best projects , here I used React JS for my
-          frontend , MongoDB and NextJS for my backend and Tailwind
-          CSS for Styling .
+          Here are some of my featured projects, showcasing modern, responsive, and user-friendly web applications built to deliver reliable performance and an excellent user experience.
         </p>
         <div class="flex gap-4 md:flex-row flex-col items-center">
           <div
