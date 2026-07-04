@@ -18,7 +18,6 @@ function tenx() {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
           <h2 className="py-2">10x Beast</h2>
         </div>
-      </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
