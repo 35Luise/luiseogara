@@ -38,135 +38,113 @@ const Projects = () => {
       title: "NexuscaleAI",
       image: tenx,
       projectUrl: "/tenx",
-      languages: "Elixir , Phoenix LiveView , Python",
     },
     {
       title: "Sema Web App",
       image: sema,
       projectUrl: "/sema",
-      languages: "Elixir , Phoenix , Tailwind CSS",
     },
     {
       title: "Mwamba RFC",
       image: mwamba,
       projectUrl: "/mwamba",
-      languages: "Elixir , Phoenix , Tailwind CSS",
     },
     {
       title: "Mche",
       image: mche,
       projectUrl: "/mche",
-      languages: "Elixir , Phoenix , Tailwind CSS",
     },
     {
       title: "Lipia Ngoma",
       image: lipiangoma,
       projectUrl: "/lipiangoma",
-      languages: "Elixir , Phoenix , Tailwind CSS",
     },
 
     {
-      title: "Headwear Solutions Ecommerce System",
+      title: "Headwear Solutions E-commerce System",
       image: headwearsolutions,
       projectUrl: "/headwearsolutions",
-      languages: "Elixir , Phoenix LiveView",
     },
     {
       title: "Pataride",
       image: pataride,
       projectUrl: "/pataride",
-      languages: "Elixir , Phoenix , Tailwind CSS",
     },
     {
       title: "TheKultureKe Ticketing System",
       image: thekultureke,
       projectUrl: "/thekultureke",
-      languages: "Elixir , Phoenix LiveView",
     },
 
     {
       title: "Influencer Management System",
       image: allthingsocial,
       projectUrl: "/allthingsocial",
-      languages: "ELixir , Phoenix , Tailwind CSS",
     },
     {
       title: "Summertides",
       image: summertides,
       projectUrl: "/summertides",
-      languages: "React JS , Tailwind CSS",
     },
     {
       title: "Purefruit",
       image: purefruit,
       projectUrl: "/purefruit",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Thrills & Spills",
       image: thrills,
       projectUrl: "/thrills",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Qliq Africa",
       image: qliq,
       projectUrl: "/qliq",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Photographer Portfolio",
       image: kinywa,
       projectUrl: "/kinywa",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "People's Choice Africa Awards",
       image: peopleschoice,
       projectUrl: "/peopleschoice",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "EngagePro Employee Management System",
       image: engagepro,
       projectUrl: "/engagepro",
-      languages: "Elixir , Phoenix , Tailwind CSS",
     },
     {
       title: "Thinkopal Website",
       image: thinkopal,
       projectUrl: "/thinkopal",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Cleaning Services Website",
       image: smarie,
       projectUrl: "/smarie",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Meal Planning Website",
       image: sisteskitchen,
       projectUrl: "/sisteskitchen",
-      languages: "Ruby on Rails, React JS , Tailwind CSS",
     },
     {
       title: "Zero22 Gym Website",
       image: zero22,
       projectUrl: "/zero22",
-      languages: "Next JS, Tailwind CSS",
     },
     {
       title: "Martin Kerry Portflio",
       image: kerry,
       projectUrl: "/kerry",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Real Estate Website",
       image: house,
       projectUrl: "/house",
-      languages: "React JS, Tailwind CSS, Ruby on Rails",
     },
   ];
  
@@ -177,97 +155,81 @@ const Projects = () => {
       title: "Summertides",
       image: summertides,
       projectUrl: "/summertides",
-      languages: "React JS , Tailwind CSS",
     },
     {
       title: "Photographer Portfolio",
       image: kinywa,
       projectUrl: "/kinywa",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Purefruit",
       image: purefruit,
       projectUrl: "/purefruit",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Thrills & Spills",
       image: thrills,
       projectUrl: "/thrills",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Qliq Africa",
       image: qliq,
       projectUrl: "/qliq",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "People's Choice Africa Awards",
       image: peopleschoice,
       projectUrl: "/peopleschoice",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Thinkopal Website",
       image: thinkopal,
       projectUrl: "/thinkopal",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Cleaning Services Website",
       image: smarie,
       projectUrl: "/smarie",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Meal Planning Website",
       image: sisteskitchen,
       projectUrl: "/sisteskitchen",
-      languages: "Ruby on Rails, React JS , Tailwind CSS",
     },
     {
       title: "Martin Kerry Portfolio",
       image: kerry,
       projectUrl: "/kerry",
-      languages: "React JS, Tailwind CSS",
     },
     {
       title: "Zero22 Gym Website",
       image: zero22,
       projectUrl: "/zero22",
-      languages: "Next JS, Tailwind CSS",
     },
     {
       title: "Real Estate Website",
       image: house,
       projectUrl: "/house",
-      languages: "React JS, Tailwind CSS, Ruby on Rails",
     },
     {
       title: "Turning Point",
       image: turningpoint,
       projectUrl: "/turningpoint",
-      languages: "Ruby on Rails, React JS , Tailwind CSS",
     },
     {
       title: "Oraimo Clone",
       image: oraimo,
       projectUrl: "/oraimo",
-      languages: "Next JS, Tailwind CSS",
     },
     {
       title: "News",
       image: news,
       projectUrl: "/news",
-      languages: "React JS, Tailwind CSS, Ruby on Rails",
     },
     {
       title: "Data Sceince Portfolio",
       image: kilush,
       projectUrl: "/kilush",
-      languages: "React JS, Tailwind CSS, Ruby on Rails",
     },
   ];
 
@@ -320,7 +282,6 @@ const Projects = () => {
                 title={project.title}
                 image={project.image}
                 projectUrl={project.projectUrl}
-                languages={project.languages}
               />
             ))}
           {projectstoshow == "react" &&
@@ -329,22 +290,12 @@ const Projects = () => {
                 title={project.title}
                 image={project.image}
                 projectUrl={project.projectUrl}
-                languages={project.languages}
               />
             ))}
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
-        <a
-          className="bg-[#295287] text-white px-8 py-4  cursor-pointer shadow-gray-200 shadow-2xl hover:scale-105 transition-all duration-500 rounded-md text-sm font-semibold"
-          href="https://github.com/35Luise"
-          target="_blank"
-          rel="noreferrer"
-        >
-          See All My Projects
-        </a>
-      </div>
+      
     </div>
   );
 };
