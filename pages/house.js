@@ -44,7 +44,7 @@ function house() {
           </button>
           
         </div>
-        </div>
+        
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back </p>
         </Link>
