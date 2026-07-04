@@ -104,11 +104,6 @@ const Projects = () => {
       projectUrl: "/kinywa",
     },
     {
-      title: "People's Choice Africa Awards",
-      image: peopleschoice,
-      projectUrl: "/peopleschoice",
-    },
-    {
       title: "Thinkopal Website",
       image: thinkopal,
       projectUrl: "/thinkopal",
@@ -162,11 +157,6 @@ const Projects = () => {
       title: "Qliq Africa",
       image: qliq,
       projectUrl: "/qliq",
-    },
-    {
-      title: "People's Choice Africa Awards",
-      image: peopleschoice,
-      projectUrl: "/peopleschoice",
     },
     {
       title: "Thinkopal Website",
