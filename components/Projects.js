@@ -8,7 +8,6 @@ import mche from "../public/assets/projects/mche.png";
 import mwamba from "../public/assets/projects/mwamba.png";
 import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
-import engagepro from "../public/assets/projects/engagepro.png";
 import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
 import thekultureke from "../public/assets/projects/thekultureke.png";
@@ -110,11 +109,6 @@ const Projects = () => {
       title: "People's Choice Africa Awards",
       image: peopleschoice,
       projectUrl: "/peopleschoice",
-    },
-    {
-      title: "EngagePro Employee Management System",
-      image: engagepro,
-      projectUrl: "/engagepro",
     },
     {
       title: "Thinkopal Website",
