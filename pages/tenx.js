@@ -35,7 +35,7 @@ function tenx() {
             deals, and saving 37hrs per week. It offers real-time success
             measurement, smart follow-up automation, and insightful meeting
             analytics. It's also equipped with a community for strategy exchange
-            and growth.",
+            and growth.
           </p>
 
           <button className="px-8 py-2 mt-4">
