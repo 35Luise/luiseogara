@@ -6,7 +6,6 @@ import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
 import mche from "../public/assets/projects/mche.png";
 import mwamba from "../public/assets/projects/mwamba.png";
-import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
 import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
@@ -116,11 +115,6 @@ const Projects = () => {
       projectUrl: "/thinkopal",
     },
     {
-      title: "Cleaning Services Website",
-      image: smarie,
-      projectUrl: "/smarie",
-    },
-    {
       title: "Meal Planning Website",
       image: sisteskitchen,
       projectUrl: "/sisteskitchen",
@@ -179,11 +173,6 @@ const Projects = () => {
       title: "Thinkopal Website",
       image: thinkopal,
       projectUrl: "/thinkopal",
-    },
-    {
-      title: "Cleaning Services Website",
-      image: smarie,
-      projectUrl: "/smarie",
     },
     {
       title: "Meal Planning Website",
