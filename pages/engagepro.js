@@ -23,7 +23,7 @@ function engagepro() {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
-          <p className="uppercase text-xltracking-widest text-[#5651e5] ">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5] ">
             Project
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
