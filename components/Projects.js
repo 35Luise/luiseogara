@@ -221,7 +221,7 @@ const Projects = () => {
       projectUrl: "/news",
     },
     {
-      title: "Data Sceince Portfolio",
+      title: "Data Science Portfolio",
       image: kilush,
       projectUrl: "/kilush",
     },
