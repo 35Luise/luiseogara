@@ -7,7 +7,6 @@ import kinywa from "../public/assets/projects/kinywa.png";
 import mche from "../public/assets/projects/mche.png";
 import mwamba from "../public/assets/projects/mwamba.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
-import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
 import thekultureke from "../public/assets/projects/thekultureke.png";
 import pataride from "../public/assets/projects/pataride.png";
