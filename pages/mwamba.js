@@ -17,7 +17,6 @@ function mwamba() {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
           <h2 className="py-2">Mwamba RFC Website</h2>
-          <p>Elixir / Phoenix Live View / Tailwind CSS</p>
         </div>
       </div>
 
@@ -42,35 +41,12 @@ function mwamba() {
                 Live Demo
               </a>
             </button>
-            <button className="md:px-8 px-2 py-2 mt-4">
-              <a
-                href="https://drive.google.com/file/d/1M56vXZyqS5Qyv4lUpQTt5je1LHrg5ZP3/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Video Demo
-              </a>
-            </button>
+            
           
           </div>
         </div>
 
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
-          <div className="p-2">
-            <p className="text-center  font-semibold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 ">
-              <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Elixir
-              </p>
-              <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Phoenix Live View
-              </p>
-              <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back </p>
         </Link>

@@ -42,7 +42,7 @@ function house() {
               Live Demo
             </a>
           </button>
-          </div>
+        
         </div>
         
         <Link href="/#projects">

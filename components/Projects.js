@@ -10,7 +10,6 @@ import thinkopal from "../public/assets/projects/thinkopal.png";
 import thekultureke from "../public/assets/projects/thekultureke.png";
 import pataride from "../public/assets/projects/pataride.png";
 import bemyvalentine from "../public/assets/projects/bemyvalentine.png";
-import lipiangoma from "../public/assets/projects/lipiangoma.png";
 import summertides from "../public/assets/projects/summertides.png";
 import headwearsolutions from "../public/assets/projects/headwearsolutions.png";
 import oraimo from "../public/assets/projects/oraimo-clone.png";
@@ -49,11 +48,6 @@ const Projects = () => {
       title: "Mche",
       image: mche,
       projectUrl: "/mche",
-    },
-    {
-      title: "Lipia Ngoma",
-      image: lipiangoma,
-      projectUrl: "/lipiangoma",
     },
 
     {

@@ -83,7 +83,7 @@ const Services = () => {
                         <li>Booking and Scheduling(Appointment Booking, Google Calendar).</li>
                         <li>Social Media Integrations(Youtube Embeds, Facebook, Instagram, X, LinkedIn).</li>
                         <li>E-commerce Solutions(Shopify, Product Catalog, Online ordering).</li>
-                        <li>Automaion and Workflow Integration.</li>
+                        <li>Automation and Workflow Integration.</li>
                         <li>SEO and Marketing tools.</li>
                         <li>SMS and Notifications(Twilio sms, Bulk sms, Push notifications).</li>
                         <li>AI and Smart features(FAQ Automation, AI chatbot, Content generation tools).</li>

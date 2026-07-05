@@ -17,7 +17,6 @@ function purefruit() {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
           <h2 className="py-2">Purefruit Company Website</h2>
-          <p>React JS / Tailwind CSS </p>
         </div>
       </div>
 
@@ -32,8 +31,7 @@ function purefruit() {
             This is a company website for Purefruit which deals with organic
             fruits and vegetables. This system increased the increased the
             company's online presence and made it easier for clients to reach
-            out to the company. The website was built using React JS and
-            Tailwind CSS.
+            out to the company.
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
@@ -45,19 +43,7 @@ function purefruit() {
             </a>
           </button>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
-          <div className="p-2">
-            <p className="text-center  font-semibold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 ">
-              <p className="flex items-center text-gray-600  md:text-md text-sm py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React JS
-              </p>
-              <p className="flex items-center text-gray-600  md:text-md text-sm py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back </p>
         </Link>
